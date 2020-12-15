@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:auto_cycle="true"
+            app:placeholder="@color/white"
+            app:error_image="@color/white"
+            app:delay="0"
+            app:period="1000"
+            app:corner_radius="5"
+            >
+
+
+
+        </com.denzcoskun.imageslider.ImageSlider>
+    </RelativeLayout>
+
+    
+
+
+
+</LinearLayout>

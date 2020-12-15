@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:background="@drawable/line1"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:id="@+id/line2"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line7"
+            android:layout_toRightOf="@id/line1"/>
+        <View
+            android:id="@+id/line3"
+            android:layout_width="20dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line1"
+            android:layout_toRightOf="@id/line2"/>
+        <View
+            android:id="@+id/line4"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line7"
+            android:layout_toRightOf="@id/line3"/>
+        <View
+            android:id="@+id/line5"
+            android:layout_width="20dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line1"
+            android:layout_toRightOf="@id/line4"/>
+        <View
+            android:id="@+id/line6"
+            android:layout_width="20dp"
+            android:layout_height="225dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line7"
+            android:layout_toRightOf="@id/line5"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo"
+            android:text="K"
+            android:textColor="@color/white"
+            android:textSize="150sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp">
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/white"
+            android:secondaryProgressTint="@color/black" />
+
+    </RelativeLayout>
+</LinearLayout>
