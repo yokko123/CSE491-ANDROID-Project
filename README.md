@@ -15,9 +15,10 @@
 12. Profile to see information of the user from database. 
 
 # To Do / To be completed
-1. Place Order
-2. Track Order
+1. Placing Order
+2. Tracking Order
 3. Shopping Cart
 4. Notification
 5. Profile information edit
 6. Vendor- Product details edit
+7. Delivery App
