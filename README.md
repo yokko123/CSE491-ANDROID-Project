@@ -12,7 +12,8 @@
 9. Vendor can see his/her shop's all products that are fetched from database
 10. Users can see all shops and by clicking on the shop they can see the products that are in that particular shop
 11. Navigation Drawer and Bottom Navigation drawer to move from one page to another page easily
-12. Profile to see information of the user from database. 
+12. Profile to see information of the user from database.
+13. GeoLocation using phone's location 
 
 # To Do / To be completed
 1. Placing Order
